@@ -1,0 +1,30 @@
+{
+  "name": "haptic-feedback-vanilla",
+  "version": "1.0.0",
+  "description": "Vanilla JavaScript haptic feedback library for iOS Safari 18.0+ and Android, inspired by use-haptic but without React dependency",
+  "main": "haptic-feedback.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stonerock/haptic.git"
+  },
+  "keywords": [
+    "haptic",
+    "feedback",
+    "vibration",
+    "ios",
+    "safari",
+    "wordpress",
+    "vanilla-js",
+    "mobile",
+    "tactile"
+  ],
+  "author": "Markus Karikivi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stonerock/haptic/issues"
+  },
+  "homepage": "https://github.com/Stonerock/haptic#readme"
+}
