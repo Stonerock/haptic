@@ -114,11 +114,11 @@ document.addEventListener('quiz-answer-selected', function() {
 document.dispatchEvent(new Event('haptic:trigger'));
 ```
 
-## Current WordPress Site Integration
+## WordPress Site Integration
 
-Based on your site structure at `koutsi.boostii.fi`, haptic feedback will be automatically added to:
+Feedback can be automatically added to:
 
-- ✅ "Löydä lajisi Koutsin avulla" button
+- ✅ Button
 - ✅ Navigation menu items
 - ✅ Language switcher links
 - ✅ Any Gutenberg buttons
@@ -217,7 +217,7 @@ Add CSS to show which elements have haptic enabled:
 
 ## Example: Quiz Integration
 
-For your Boostii Koutsi quiz, add haptic to answer selections:
+For a quiz, add haptic to answer selections:
 
 ```javascript
 // In your quiz JavaScript
@@ -253,4 +253,3 @@ If you encounter issues:
 ## Credits
 
 Inspired by the `use-haptic` React library by @posaune0423
-Adapted for vanilla JavaScript and WordPress by Claude Code
